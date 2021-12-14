@@ -1,5 +1,5 @@
 var express = require('express');
-// var router = express.Router();
+var router = express.Router();
 const ObjectID = require('mongodb').ObjectID;
 
 router.get('/appointments', (req, res, next) => {
